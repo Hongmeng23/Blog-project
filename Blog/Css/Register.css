@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Assets/pawel-czerwinski-iDvy-VLTf4M-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    padding: 10px;
+}
+
+h2 {
+    font-style: italic;
+    font-size: 1.8rem;
+    color: black;
+}
+
+h1{
+    font-style: italic;
+}
+
+.box {
+    position: relative;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 32%;
+    height: 80vh;
+    left: 35%;
+    padding: 10px;
+    border: none;
+}
+
+.box h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* .box .Signin{
+    border: 1px solid black;
+    width: 75%;
+    height: 6vh;
+    margin-left: 13%;
+    margin-top: 5%;
+    background-color: rgb(18, 68, 234);
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+} */
+
+/* .Signin {
+    color: white;
+    margin-top: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9rem;
+} */
+
+.Signin {
+    background-color: rgb(18, 68, 234);
+    width: 75%;
+    height: 6vh;
+    margin-left: 13%;
+    margin-top: 4%;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+}
+
+.Signin p {
+    position: relative;
+    display: inline-block;
+    margin-top: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+.Signin i {
+    margin-right: 10px;
+}
+
+.Hongmeng {
+    margin-top: 10px;
+    margin-left: 13%;
+    display: grid;
+    gap: 10px;
+}
+
+.Hongmeng p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(87, 84, 84);
+    font-size: 0.9rem;
+}
+
+.Hongmeng input {
+    width: 86%;
+    height: 6vh;
+    padding: 10px;
+    outline-color: rgb(18, 68, 234);
+    border-radius: 3px;
+    font-size: 0.7rem;
+    border: none;
+    border: 1px solid grey;
+}
+
+#forget {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.85rem;
+    margin-left: 55%;
+    color: rgb(18, 68, 234);
+}
+
+.Hongmeng button {
+    background-color: rgb(18, 68, 234);
+    width: 86%;
+    height: 6vh;
+    margin-top: 4%;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}
+
+.box #None {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(87, 84, 84);
+    font-size: 0.9rem;
+    margin-left: 23%;
+    margin-top: 5%;
+}
+
+#None a {
+    color: rgb(18, 68, 234);
+}
